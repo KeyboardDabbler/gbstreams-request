@@ -75,16 +75,16 @@ export const messages = defineMessages('components.PermissionEdit', {
   viewrecent: 'View Recently Added',
   viewrecentDescription:
     'Grant permission to view the list of recently added media.',
-  viewwatchlists: 'View {mediaServerName} Watchlists',
+  viewwatchlists: 'View GBstreams Watchlists',
   viewwatchlistsDescription:
-    "Grant permission to view other users' {mediaServerName} Watchlists.",
-  manageblacklist: 'Manage Blacklist',
-  manageblacklistDescription: 'Grant permission to manage blacklisted media.',
-  blacklistedItems: 'Blacklist media.',
-  blacklistedItemsDescription: 'Grant permission to blacklist media.',
-  viewblacklistedItems: 'View blacklisted media.',
-  viewblacklistedItemsDescription:
-    'Grant permission to view blacklisted media.',
+    "Grant permission to view other users' GBstreams Watchlists.",
+    manageblacklist: 'Manage Blacklist',
+    manageblacklistDescription: 'Grant permission to manage blacklisted media.',
+    blacklistedItems: 'Blacklist media.',
+    blacklistedItemsDescription: 'Grant permission to blacklist media.',
+    viewblacklistedItems: 'View blacklisted media.',
+    viewblacklistedItemsDescription:
+      'Grant permission to view blacklisted media.',
 });
 
 interface PermissionEditProps {

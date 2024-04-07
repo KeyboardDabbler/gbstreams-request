@@ -41,7 +41,7 @@ import JellyfinImportModal from './JellyfinImportModal';
 const messages = defineMessages('components.UserList', {
   users: 'Users',
   userlist: 'User List',
-  importfrommediaserver: 'Import {mediaServerName} Users',
+  importfrommediaserver: 'Import GBstreams Users',
   user: 'User',
   totalrequests: 'Requests',
   accounttype: 'Type',
@@ -57,7 +57,7 @@ const messages = defineMessages('components.UserList', {
   deleteconfirm:
     'Are you sure you want to delete this user? All of their request data will be permanently removed.',
   localuser: 'Local User',
-  mediaServerUser: '{mediaServerName} User',
+  mediaServerUser: 'GBstreams User',
   createlocaluser: 'Create Local User',
   creating: 'Creating…',
   create: 'Create',

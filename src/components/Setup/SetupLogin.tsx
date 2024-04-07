@@ -11,7 +11,7 @@ const messages = defineMessages('components.Setup', {
   welcome: 'Welcome to Jellyseerr',
   signinMessage: 'Get started by signing in',
   signin: 'Sign in to your account',
-  signinWithJellyfin: 'Enter your Jellyfin details',
+  signinWithJellyfin: 'Enter your GBstreams details',
   signinWithEmby: 'Enter your Emby details',
   signinWithPlex: 'Enter your Plex details',
   back: 'Go back',

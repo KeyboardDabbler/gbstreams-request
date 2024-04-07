@@ -18,15 +18,15 @@ interface JellyfinImportProps {
 }
 
 const messages = defineMessages('components.UserList', {
-  importfromJellyfin: 'Import {mediaServerName} Users',
+  importfromJellyfin: 'Import GBstreams Users',
   importfromJellyfinerror:
-    'Something went wrong while importing {mediaServerName} users.',
+    'Something went wrong while importing GBstreams users.',
   importedfromJellyfin:
-    '<strong>{userCount}</strong> {mediaServerName} {userCount, plural, one {user} other {users}} imported successfully!',
+    '<strong>{userCount}</strong> GBstreams {userCount, plural, one {user} other {users}} imported successfully!',
   user: 'User',
-  noJellyfinuserstoimport: 'There are no {mediaServerName} users to import.',
+  noJellyfinuserstoimport: 'There are no GBstreams users to import.',
   newJellyfinsigninenabled:
-    'The <strong>Enable New {mediaServerName} Sign-In</strong> setting is currently enabled. {mediaServerName} users with library access do not need to be imported in order to sign in.',
+    'The <strong>Enable New GBstreams Sign-In</strong> setting is currently enabled. GBstreams users with library access do not need to be imported in order to sign in.',
 });
 
 const JellyfinImportModal: React.FC<JellyfinImportProps> = ({

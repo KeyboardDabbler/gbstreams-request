@@ -18,11 +18,10 @@ It is a fork of [Overseerr](https://github.com/sct/overseerr) built to bring sup
 
 _The original Overseerr team have been busy and Jellyfin/Emby support aren't on their roadmap, so we started this project as we wanted to bring the Overseerr experience to the Jellyfin/Emby Community!_
 
-## Current Features
-
-- Full Jellyfin/Emby/Plex integration including authentication with user import & management
-- Supports Movies, Shows and Mixed Libraries
+- Full Jellyfin/Emby/Plex integration. Authenticate and manage user access with Jellyfin/Emby/Plex!
+- Supports Movies, Shows, Mixed Libraries!
 - Ability to change email addresses for smtp purposes
+- Ability to import all jellyfin/emby users
 - Easy integration with your existing services. Currently, Jellyseerr supports Sonarr and Radarr. More to come!
 - Jellyfin/Emby/Plex library scan, to keep track of the titles which are already available.
 - Customizable request system, which allows users to request individual seasons or movies in a friendly, easy-to-use interface.
@@ -31,7 +30,7 @@ _The original Overseerr team have been busy and Jellyfin/Emby support aren't on 
 - Support for various notification agents.
 - Mobile-friendly design, for when you need to approve requests on the go!
 
-  (Upcoming Features include: Multiple Server Instances, and much more!)
+  (Upcoming Features include: Multiple Server Instances, Music Support, and much more!)
 
 With more features on the way! Check out our [issue tracker](https://github.com/fallenbagel/jellyseerr/issues) to see the features which have already been requested.
 

@@ -22,10 +22,10 @@ const messages = defineMessages('components.Settings.SettingsUsers', {
   toastSettingsFailure: 'Something went wrong while saving settings.',
   localLogin: 'Enable Local Sign-In',
   localLoginTip:
-    'Allow users to sign in using their email address and password, instead of {mediaServerName} OAuth',
-  newPlexLogin: 'Enable New {mediaServerName} Sign-In',
+    'Allow users to sign in using their email address and password, instead of GBstreams OAuth',
+  newPlexLogin: 'Enable New GBstreams Sign-In',
   newPlexLoginTip:
-    'Allow {mediaServerName} users to sign in without first being imported',
+    'Allow GBstreams users to sign in without first being imported',
   movieRequestLimitLabel: 'Global Movie Request Limit',
   tvRequestLimitLabel: 'Global Series Request Limit',
   defaultPermissions: 'Default Permissions',

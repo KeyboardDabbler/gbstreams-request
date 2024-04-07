@@ -21,7 +21,7 @@ const messages = defineMessages('components.Login', {
   signin: 'Sign In',
   signinheader: 'Sign in to continue',
   signinwithplex: 'Use your Plex account',
-  signinwithjellyfin: 'Use your {mediaServerName} account',
+  signinwithjellyfin: 'Use your GBstreams account',
   signinwithoverseerr: 'Use your {applicationTitle} account',
 });
 

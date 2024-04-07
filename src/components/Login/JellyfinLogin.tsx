@@ -13,14 +13,14 @@ import * as Yup from 'yup';
 const messages = defineMessages('components.Login', {
   username: 'Username',
   password: 'Password',
-  hostname: '{mediaServerName} URL',
+  host: 'GBstreams URL',
   port: 'Port',
   enablessl: 'Use SSL',
   urlBase: 'URL Base',
   email: 'Email',
   emailtooltip:
-    'Address does not need to be associated with your {mediaServerName} instance.',
-  validationhostrequired: '{mediaServerName} URL required',
+    'Address does not need to be associated with your GBstreams instance.',
+  validationhostrequired: 'GBstreams URL required',
   validationhostformat: 'Valid URL required',
   validationemailrequired: 'Email required',
   validationemailformat: 'Valid email required',

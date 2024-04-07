@@ -33,7 +33,7 @@ const messages = defineMessages(
     email: 'Email',
     save: 'Save Changes',
     saving: 'Saving…',
-    mediaServerUser: '{mediaServerName} User',
+    mediaServerUser: 'GBstreams User',
     accounttype: 'Account Type',
     plexuser: 'Plex User',
     localuser: 'Local User',

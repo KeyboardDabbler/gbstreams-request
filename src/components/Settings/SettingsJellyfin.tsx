@@ -18,21 +18,21 @@ import useSWR from 'swr';
 import * as Yup from 'yup';
 
 const messages = defineMessages('components.Settings', {
-  jellyfinsettings: '{mediaServerName} Settings',
+  jellyfinsettings: 'GBstreams Settings',
   jellyfinsettingsDescription:
-    'Configure the settings for your {mediaServerName} server. {mediaServerName} scans your {mediaServerName} libraries to see what content is available.',
+    'Configure the settings for your GBstreams server. GBstreams scans your GBstreams libraries to see what content is available.',
   timeout: 'Timeout',
   save: 'Save Changes',
   saving: 'Saving…',
-  jellyfinlibraries: '{mediaServerName} Libraries',
+  jellyfinlibraries: 'GBstreams Libraries',
   jellyfinlibrariesDescription:
-    'The libraries {mediaServerName} scans for titles. Click the button below if no libraries are listed.',
+    'The libraries GBstreams scans for titles. Click the button below if no libraries are listed.',
   jellyfinSettingsFailure:
-    'Something went wrong while saving {mediaServerName} settings.',
-  jellyfinSettingsSuccess: '{mediaServerName} settings saved successfully!',
-  jellyfinSettings: '{mediaServerName} Settings',
+    'Something went wrong while saving GBstreams settings.',
+  jellyfinSettingsSuccess: 'GBstreams settings saved successfully!',
+  jellyfinSettings: 'GBstreams Settings',
   jellyfinSettingsDescription:
-    'Optionally configure the internal and external endpoints for your {mediaServerName} server. In most cases, the external URL is different to the internal URL. A custom password reset URL can also be set for {mediaServerName} login, in case you would like to redirect to a different password reset page. You can also change the Jellyfin API key, which was automatically generated previously.',
+    'Optionally configure the internal and external endpoints for your GBstreams server. In most cases, the external URL is different to the internal URL. A custom password reset URL can also be set for {mediaServerName} login, in case you would like to redirect to a different password reset page. You can also change the Jellyfin API key, which was automatically generated previously.',
   externalUrl: 'External URL',
   hostname: 'Hostname or IP Address',
   port: 'Port',
@@ -50,7 +50,7 @@ const messages = defineMessages('components.Settings', {
   syncJellyfin: 'Sync Libraries',
   manualscanJellyfin: 'Manual Library Scan',
   manualscanDescriptionJellyfin:
-    "Normally, this will only be run once every 24 hours. Jellyseerr will check your {mediaServerName} server's recently added more aggressively. If this is your first time configuring Jellyseerr, a one-time full manual library scan is recommended!",
+    "Normally, this will only be run once every 24 hours. Jellyseerr will check your GBstreams server's recently added more aggressively. If this is your first time configuring Jellyseerr, a one-time full manual library scan is recommended!",
   notrunning: 'Not Running',
   currentlibrary: 'Current Library: {name}',
   librariesRemaining: 'Libraries Remaining: {count}',

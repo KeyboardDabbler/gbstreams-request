@@ -14,7 +14,7 @@ import { useIntl } from 'react-intl';
 const messages = defineMessages('components.StatusBadge', {
   status: '{status}',
   status4k: '4K {status}',
-  playonplex: 'Play on {mediaServerName}',
+  playonplex: 'Play on GBstreams',
   openinarr: 'Open in {arr}',
   managemedia: 'Manage {mediaType}',
   seasonnumber: 'S{seasonNumber}',

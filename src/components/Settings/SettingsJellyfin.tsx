@@ -45,7 +45,7 @@ const messages = defineMessages('components.Settings', {
     'Custom authentication with Automatic Library Grouping not supported',
   jellyfinSyncFailedGenericError:
     'Something went wrong while syncing libraries',
-  invalidurlerror: 'Unable to connect to {mediaServerName} server.',
+  invalidurlerror: 'Unable to connect to GBstreams server.',
   syncing: 'Syncing',
   syncJellyfin: 'Sync Libraries',
   manualscanJellyfin: 'Manual Library Scan',

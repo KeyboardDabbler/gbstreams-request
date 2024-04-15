@@ -258,7 +258,6 @@ class JellyfinAPI extends ExternalAPI {
             error: e.cause.message ?? e.cause.statusText,
           }
         );
-
         return [];
       }
     }
